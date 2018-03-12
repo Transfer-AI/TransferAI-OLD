@@ -38,11 +38,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        List<String> dateTemplates = new ArrayList<String>();
-        List<String> timeTemplates = new ArrayList<String>();
+        List<String> dateTemplates = new ArrayList<>();
+        List<String> timeTemplates = new ArrayList<>();
 
         //Intent intent = new Intent(this, GmailClient.class);
         //startActivity(intent);
+
+        //TEST COMMENT TO SEE IF PUSH WORKS
 
         OutlookClient client = new OutlookClient("baietto.2@buckeyemail.osu.edu", "e0z9-g?#!U@z?H0-");
         client.generateMessages();
