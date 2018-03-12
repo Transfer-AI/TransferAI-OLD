@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         //startActivity(intent);
 
         //TEST COMMENT TO SEE IF PUSH WORKS
+        //ANOTHER TEST COMMENT
 
         OutlookClient client = new OutlookClient("baietto.2@buckeyemail.osu.edu", "e0z9-g?#!U@z?H0-");
         client.generateMessages();
